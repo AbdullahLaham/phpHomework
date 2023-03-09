@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    
+}
+.container {
+    width: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 100);
+    color: white;
+    padding: 0 .8rem;
+}
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+.to {
+    width: 6rem;
+    
+}
+table, th, td {
+    border: 1px solid rgb(201, 201, 201);
+    border-collapse: collapse;
+    text-align: start;
+  }
+
+  .buttonsrow td {
+    border: 0;
+  }
+
+
+
+
+  .up-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .up-section >p {
+    width: 100%;
+    background-color: rgb(0, 0, 100);
+    color: white;
+    padding: .8rem;
+  }
+  .self-behalf {
+    width: 100%;
+    padding: .8rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+  }
+  .self-behalf table {
+    margin-top: 0;
+  }
+  .self-behalf td {
+    padding: .5rem;
+  }
+.content-table {
+    
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #f7f7f7;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+td.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: end;
+    margin-left: 20rem;
+}
+td.buttons button {
+    background-color: rgb(209, 0, 0);
+    color: rgba(255, 255, 255, 0.788);
+    font-size: .9rem;
+    padding: .3rem;
+    border-radius: .7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: .85rem;
+}
+.left-footer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.footer p {
+    cursor: pointer;
+}
